@@ -17,7 +17,7 @@ public class ShapeMain {
             String type = sc.next();
             String color = sc.next();
 
-            int filled = scanner.nextInt(); 
+            boolean filled = scanner.nextBoolean();
 
             if (type.equals("RECTANGLE")) {
 
